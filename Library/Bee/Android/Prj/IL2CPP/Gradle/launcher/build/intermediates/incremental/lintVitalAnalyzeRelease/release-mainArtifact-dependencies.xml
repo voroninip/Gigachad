@@ -1,0 +1,26 @@
+<dependencies>
+  <compile
+      roots="D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release">
+    <dependency
+        name="D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+  </compile>
+  <package
+      roots="D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release,__local_aars__:D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar,:OVRPlugin:@aar,D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary:xrmanifest.androidlib::release,androidx.games:games-frame-pacing:1.10.0@aar">
+    <dependency
+        name="D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+    <dependency
+        name="__local_aars__:D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"
+        simpleName="__local_aars__:D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar"/>
+    <dependency
+        name=":OVRPlugin:@aar"
+        simpleName=":OVRPlugin"/>
+    <dependency
+        name="D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary:xrmanifest.androidlib::release"
+        simpleName="Gradle.unityLibrary:xrmanifest.androidlib"/>
+    <dependency
+        name="androidx.games:games-frame-pacing:1.10.0@aar"
+        simpleName="androidx.games:games-frame-pacing"/>
+  </package>
+</dependencies>

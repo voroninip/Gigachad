@@ -1,0 +1,190 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:installLocation="auto" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10
+11    <supports-gl-texture android:name="GL_KHR_texture_compression_astc_ldr" />
+11-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-77
+11-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:24-74
+12
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:3-65
+13-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:20-62
+14
+15    <uses-feature android:glEsVersion="0x00030000" />
+15-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:3-52
+15-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:17-49
+16    <uses-feature
+16-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:3-91
+17        android:name="android.hardware.vulkan.version"
+17-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-63
+18        android:required="false" />
+18-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:64-88
+19    <uses-feature
+19-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:3-88
+20        android:name="android.hardware.touchscreen"
+20-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:17-60
+21        android:required="false" />
+21-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:61-85
+22    <uses-feature
+22-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:3-99
+23        android:name="android.hardware.touchscreen.multitouch"
+23-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:17-71
+24        android:required="false" />
+24-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:72-96
+25    <uses-feature
+25-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:3-108
+26        android:name="android.hardware.touchscreen.multitouch.distinct"
+26-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:17-80
+27        android:required="false" />
+27-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:81-105
+28    <uses-feature
+28-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:3-111
+29        android:name="android.hardware.vr.headtracking"
+29-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:17-64
+30        android:required="true"
+30-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:65-88
+31        android:version="1" />
+31-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:89-108
+32
+33    <application android:extractNativeLibs="true" >
+33-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:3-33:17
+33-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:16-48
+34        <meta-data
+34-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:5-69
+35            android:name="unity.splash-mode"
+35-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:16-48
+36            android:value="0" />
+36-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:49-66
+37        <meta-data
+37-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-74
+38            android:name="unity.splash-enable"
+38-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-50
+39            android:value="True" />
+39-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:51-71
+40        <meta-data
+40-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-78
+41            android:name="unity.launch-fullscreen"
+41-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-54
+42            android:value="True" />
+42-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:55-75
+43        <meta-data
+43-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-84
+44            android:name="unity.allow-resizable-window"
+44-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-59
+45            android:value="False" />
+45-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:60-81
+46        <meta-data
+46-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-81
+47            android:name="notch.config"
+47-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-43
+48            android:value="portrait|landscape" />
+48-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:44-78
+49        <meta-data
+49-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-84
+50            android:name="unity.auto-report-fully-drawn"
+50-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-60
+51            android:value="true" />
+51-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:61-81
+52        <meta-data
+52-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-78
+53            android:name="unity.strip-engine-code"
+53-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-54
+54            android:value="true" />
+54-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:55-75
+55
+56        <activity
+56-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-27:16
+57            android:name="com.unity3d.player.UnityPlayerActivity"
+57-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:232-285
+58            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode"
+58-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:15-116
+59            android:enabled="true"
+59-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:117-139
+60            android:exported="true"
+60-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:140-163
+61            android:hardwareAccelerated="false"
+61-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:164-199
+62            android:launchMode="singleTask"
+62-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:200-231
+63            android:resizeableActivity="false"
+63-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:286-320
+64            android:screenOrientation="landscape"
+64-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:321-358
+65            android:theme="@style/UnityThemeSelector" >
+65-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:359-400
+66            <intent-filter>
+66-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:7-23:23
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:9-69
+67-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:19-66
+68
+69                <action android:name="android.intent.action.MAIN" />
+69-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:9-61
+69-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:17-58
+70
+71                <category android:name="com.oculus.intent.category.VR" />
+71-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:9-66
+71-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:19-63
+72            </intent-filter>
+73
+74            <meta-data
+74-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:7-82
+75                android:name="unityplayer.UnityActivity"
+75-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:18-58
+76                android:value="true" />
+76-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:59-79
+77            <meta-data
+77-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:7-70
+78                android:name="notch_support"
+78-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:18-46
+79                android:value="true" />
+79-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:47-67
+80            <meta-data
+80-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:7-81
+81                android:name="com.oculus.vr.focusaware"
+81-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:18-57
+82                android:value="true" />
+82-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:58-78
+83        </activity>
+84
+85        <meta-data
+85-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:5-97
+86            android:name="com.samsung.android.vr.application.mode"
+86-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:16-70
+87            android:value="vr_only" />
+87-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:71-94
+88        <meta-data
+88-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:5-91
+89            android:name="com.unity.xr.oculus.LowOverheadMode"
+89-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:16-66
+90            android:value="false" />
+90-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:67-88
+91        <meta-data
+91-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:5-88
+92            android:name="com.unity.xr.oculus.LateLatching"
+92-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:16-63
+93            android:value="false" />
+93-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:64-85
+94        <meta-data
+94-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:5-93
+95            android:name="com.unity.xr.oculus.LateLatchingDebug"
+95-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:16-68
+96            android:value="false" />
+96-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:69-90
+97        <meta-data
+97-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:5-84
+98            android:name="com.oculus.supportedDevices"
+98-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:16-58
+99            android:value="quest2" />
+99-->D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:59-81
+100    </application>
+101
+102</manifest>

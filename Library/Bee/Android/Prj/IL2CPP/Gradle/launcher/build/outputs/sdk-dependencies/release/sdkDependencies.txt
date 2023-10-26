@@ -1,0 +1,44 @@
+# List of SDK dependencies of this app, this information is also included in an encrypted form in the APK.
+# For more information visit: https://d.android.com/r/tools/dependency-metadata
+
+library {
+  maven_library {
+    artifactId: "OVRPlugin"
+  }
+  digests {
+    sha256: "\207\206\332r\261G\246\363K\360\017\374\220\302\0331Q\2605b\177o\302vR\241D2G\270O\355"
+  }
+}
+library {
+  maven_library {
+    groupId: "androidx.games"
+    artifactId: "games-frame-pacing"
+    version: "1.10.0"
+  }
+  digests {
+    sha256: "\222\274\231o*\364m\202=\022\224\357\362>\006j\215U\001\030e\321\263\234\244d\032\232NsEQ"
+  }
+  repo_index {
+  }
+}
+library {
+  digests {
+    sha256: "\307R\022.\311\302\f48C\273T\265\320\230\2601iI\322HH\274\205{\373#\034\002\301y\344"
+  }
+}
+module_dependencies {
+  module_name: "base"
+  dependency_index: 0
+  dependency_index: 1
+  dependency_index: 2
+}
+repositories {
+  maven_repo {
+    url: "https://dl.google.com/dl/android/maven2/"
+  }
+}
+repositories {
+  maven_repo {
+    url: "https://repo.maven.apache.org/maven2/"
+  }
+}

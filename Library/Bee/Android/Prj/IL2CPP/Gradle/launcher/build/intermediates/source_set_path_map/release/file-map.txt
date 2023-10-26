@@ -1,0 +1,10 @@
+com.MIPT.GigaChad.launcher-pngs-0 D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\build\generated\res\pngs\release
+com.MIPT.GigaChad.launcher-resValues-1 D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\build\generated\res\resValues\release
+com.MIPT.GigaChad.launcher-rs-2 D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\build\generated\res\rs\release
+com.MIPT.GigaChad.launcher-mergeReleaseResources-3 D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.MIPT.GigaChad.launcher-mergeReleaseResources-4 D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.MIPT.GigaChad.launcher-merged_res-5 D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\build\intermediates\merged_res\release
+com.MIPT.GigaChad.launcher-main-6 D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\res
+com.MIPT.GigaChad.launcher-release-7 D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\release\res
+com.MIPT.GigaChad.launcher-packaged_res-8 D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\packaged_res\release
+com.MIPT.GigaChad.launcher-packaged_res-9 D:\Games\GigaChad\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\packaged_res\release
